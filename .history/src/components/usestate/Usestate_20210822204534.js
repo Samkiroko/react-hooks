@@ -13,7 +13,7 @@ const Usestate = () => {
       <div className='counter'>
         <button onClick={increase}>increase</button>
         {count}
-        <button onClick={decrease}>decrease</button>
+        <button>decrease</button>
       </div>
     </div>
   )
